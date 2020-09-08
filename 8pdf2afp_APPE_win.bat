@@ -35,8 +35,6 @@ echo ===============  APPE COLOR Transform using USEDEFAULTFONTFORSUBSTITUTION p
 echo %submition_tool%\demo_itm_driver_win.exe -S %demo_itm_ipaddress% -P 6986 -F"-itm_in_files %%i -a FS45 -pragma USEDEFAULTFONTFORSUBSTITUTION -itm_out_files e:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_AFP\%%~pi\%%~ni.USEDEFAULTFONTFORSUBSTITUTION.color.afp" -s8013
 %submition_tool%\demo_itm_driver_win.exe -S %demo_itm_ipaddress% -P 6986 -F"-itm_in_files %%i -aFS45 -pragma USEDEFAULTFONTFORSUBSTITUTION -pragma USEPDFPAGESIZE=true -itm_out_files e:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_AFP\%%~pi\%%~ni.APPE.USEDEFAULTFONTFORSUBSTITUTION.color.afp" -s8013 
  
-
-
 echo ================================================
  ) >> C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Log\log_win\demo\demo_pdf2afpAPPE_itm-driver.log 2>&1
 
