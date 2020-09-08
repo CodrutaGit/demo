@@ -1,6 +1,6 @@
 echo off
 set machine=172.27.105.150
-set password=passw0rd
+set password=Passw0rd!
 set user_name=root
 del c:\test\ssh.log
 
