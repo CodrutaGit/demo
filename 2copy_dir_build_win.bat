@@ -1,7 +1,7 @@
-net use \\172.27.112.113\sw_transforms\public\ITM\Kit\IPM_4.9.0\win\ /u:saguaroprint.ro\cmorariu New42day /p:yes
+net use \\172.27.112.113\sw_transforms\public\ITM\Kit\IPM_4.9.0\win\cycle12\ /u:saguaroprint.ro\cmorariu New42day /p:yes
 
-set source="\\172.27.112.113\sw_transforms\public\ITM\Kit\IPM_4.9.1\win\"
-set target="c:\Users\Administrator\Transforms\Builds"
+set source="\\172.27.112.113\sw_transforms\public\ITM\Kit\IPM_4.9.0\win\cycle12\"
+set target="\\172.27.105.152\Users\Administrator\Transforms\Builds"
 
 FOR /F "delims=" %%I IN ('DIR %source%\*.* /A:-D /O:-D /B') DO COPY %source%\"%%I" %target% & echo %%I & GOTO :END
 :END
