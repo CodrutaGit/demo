@@ -14,10 +14,10 @@ echo mkdir E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_AFP\demo_TestFile
 mkdir E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_PDF\demo_TestFiles\
 echo mkdir E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_PDF\demo_TestFiles\
 
-mkdir E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_TIFF\demo_TestFiles\
-echo mkdir E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_TIFF\demo_TestFiles\
+mkdir E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_TIFF\demo_MF\
+echo mkdir E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_TIFF\demo_MF\
 
 
 c:\Windows\System32\xcopy.exe /T  E:\OutputTransformPDF2AFP_APPE\demo_structura_foldere\demo_output\demo_TestFiles\ E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_AFP\demo_TestFiles\
 c:\Windows\System32\xcopy.exe /T  E:\OutputTransformPDF2AFP_APPE\demo_structura_foldere\demo_output\demo_TestFiles\ E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_PDF\demo_TestFiles\
-c:\Windows\System32\xcopy.exe /T  E:\OutputTransformPDF2AFP_APPE\demo_structura_foldere\demo_output\demo_TestFiles\ E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_TIFF\demo_TestFiles\
+c:\Windows\System32\xcopy.exe /T  E:\OutputTransformPDF2AFP_APPE\demo_structura_foldere\demo_output\demo_TestFiles\ E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_TIFF\demo_MF\
