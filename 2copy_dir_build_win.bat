@@ -5,4 +5,4 @@ set target="\\172.27.105.152\Users\Administrator\Transforms\Builds"
 
 FOR /F "delims=" %%I IN ('DIR %source%\*.* /A:-D /O:-D /B') DO COPY %source%\"%%I" %target% & echo %%I & GOTO :END
 :END
-TIMEOUT 4
+TIMEOUT 20
