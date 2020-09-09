@@ -1,6 +1,6 @@
 @ECHO OFF
 
-Set dir=E:\OutputTransformPDF2AFP_APPE\demo_win\demo_structura_foldere\demo_output\
+Set dir=E:\OutputTransformPDF2AFP_APPE\demo_structura_foldere\demo_output\
 Echo Deleting all files from %dir%
 del %dir%\* /F /Q
 
@@ -19,5 +19,5 @@ echo mkdir E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_TIFF\demo_MF
 
 
 c:\Windows\System32\xcopy.exe /T  e:\demo_TestFiles E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_AFP\demo_TestFiles\
-c:\Windows\System32\xcopy.exe  /T e:\demo_TestFilesTestFiles E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_PDF\demo_TestFiles
+c:\Windows\System32\xcopy.exe /T  e:\demo_TestFiles E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_PDF\demo_TestFiles
 c:\Windows\System32\xcopy.exe /T  e:\demo_TestFiles E:\OutputTransformPDF2AFP_APPE\demo_win\demo_output_TIFF\demo_MF
