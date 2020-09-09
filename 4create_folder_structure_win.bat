@@ -1,6 +1,6 @@
 @ECHO OFF
 
-Set dir=E:\OutputTransformPDF2AFP_APPE\demo_structura_foldere\demo_output\
+Set dir=E:\OutputTransformPDF2AFP_APPE\demo_win
 Echo Deleting all files from %dir%
 del %dir%\* /F /Q
 
