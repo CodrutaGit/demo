@@ -1,2 +1,1 @@
-cd "D:\Builds\"
-setupafp2pdf.exe -i silent
+D:\Builds\setupafp2pdf.exe -i silent
