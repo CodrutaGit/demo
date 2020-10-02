@@ -1,19 +1,18 @@
 echo off
 set machine=172.27.105.150
-set password=Passw0rd!
-set user_name=root
-del c:\test\ssh.log
-
 echo %machine%
+set password=Passw0rd!
 echo %password%
-echo %user%
+set user_name=root
+echo %user_name%
 
-   cd C:\test\
+   cd C:\plink\
   
    echo connecting to %machine% ...  via ssh...
    echo %cd%
-   echo y | C:\test\plink.exe -ssh %machine% -l %root% -pw %password% 
-   C:\test\plink.exe -batch -hostkey 30:37:30:d6:3e:9d:96:cb:ee:a7:f4:c1:f0:74:30:df -sshlog ssh.log -m restore_img.txt %user_name%@%machine% -pw %password%  >>log_ssh.txt
+   echo y | C:\plink\plink.exe -ssh %machine% -l %root% -pw %password% 
+   C:\plink\plink.exe -batch -hostkey 6d:57:d4:46:08:34:96:db:c7:fe:87:6d:10:b3:e4:ab -sshlog ssh.log -m restore_img152.txt %user_name%@%machine% -pw %password%  >>log_ssh.txt
+
 
 echo STOP
 echo STOP
